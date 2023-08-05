@@ -7,12 +7,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("28733143"))
+API_HASH = getenv("f7bbd29cf8ba336237046dbecfeab519")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("6333919301:AAGwTOOzmJdFzkZ5n5rz4S8Dmw8BYYXwwJ4")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Killmonger:killmonger123@cluster0.zi6ud3a.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹ᴍɪss ✗ ᒪIՏᗩ˼❤️")
 
@@ -25,7 +25,7 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/KinGEvilHacker/AnonX
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/errorbots_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/miss_x_network")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/themortalclan")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQAxFy3-jxZ2FYNmTA5toYDASgAUZwOUAOviRmfKqqZKOuwMdyx46kzRQuw7UExxSKjYHq8qwe4Da1bPciYPbQAb3WtolALfeakRhXmsB-ANP8Fxz4ooeEdJPjpF0R55INRpC9OuQR-WVXuZDOGKlDNEgRz6VSuAD9fBpKHyfykaZZ544pUrZabuJWoeFAC9d53aVFO3Ih2CBHBWXHNU7gYO8yFmeskgp033xli-A2NOQ3uDczFzBW6EKrcfrS6Bw0ROQGx7NSIGL20N1AgkRP_eE1MWuYmOmMF0Pz9MctNEaVk30bMUbCvXQA9qcdq6oErNNjaARpr5auK4kmL6QESdAAAAAUz1MxAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
