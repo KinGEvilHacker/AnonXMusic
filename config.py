@@ -7,16 +7,16 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = getenv("28733143")
-API_HASH = getenv("f7bbd29cf8ba336237046dbecfeab519")
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
 
-BOT_TOKEN = getenv("6333919301:AAGwTOOzmJdFzkZ5n5rz4S8Dmw8BYYXwwJ4")
+BOT_TOKEN = ("BOT_TOKEN")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Killmonger:killmonger123@cluster0.zi6ud3a.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = getenv("LOG_GROUP_ID")
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹ᴍɪss ✗ ᒪIՏᗩ˼❤️")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1138802391").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQAE94LBJePLbtcAjnLNG1mHuLBi6S4jmesMERp-qSiHp69opANhkvk7bhCb_sibeI37AE14uL3pOGj5NnPWMJN12K9fp-l2pzVT61WlWw8ofnO3iynw3g-5LcJ1rRCV5APGfWkfzqwX8P7-TYnhADKIIrfG2SxHBTMA8cCcZmIe9x_ZCdsZgLDQvOUxYTA5NWYiuTNf5UZ_arPu1pvnnH0v3rSn4QxT9bUuZCrgWNjsD47km5aIQsILyta1Cw0JFFJ9RG6MmXLyX_LjQuSwpP0PM-en6ADq4lRNDOAK_rlwalSNNHkFVEWu8pW5lBQdmyeAh_Slv997cVnn9Ot5AAAAAUz1MxAA")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
