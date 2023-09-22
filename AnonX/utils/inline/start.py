@@ -43,5 +43,6 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(text="🥀 ᴘᴏᴡᴇʀᴇᴅ ʙʏ 🥀", url="https://t.me/miss_x_network),
-    ]
+        ]
+     ]
     return buttons
