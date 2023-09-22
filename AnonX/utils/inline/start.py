@@ -43,8 +43,17 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="❣ sᴜᴩᴩᴏʀᴛ ❣", url=config.SUPPORT_GROUP
             ),
+
             InlineKeyboardButton(
-                text="🥀 ᴍᴀɪɴᴛᴀɪɴᴇʀ 🥀", user_id=OWNER
+                text="❣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ❣", url=config.SUPPORT_CHANNEL
+            ),
+             
+            InlineKeyboardButton(
+                text="🥀 ᴍᴀᴅᴇ ʙʏ 🥀", url=f"https/t.me/imnot_avanish"
+            ),
+            
+            InlineKeyboardButton(
+                text="🥀 ʙᴏᴛ ᴏᴡɴᴇʀ 🥀", user_id=OWNER
             ),
         ],
      ]
